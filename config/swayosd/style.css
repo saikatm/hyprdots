@@ -1,4 +1,4 @@
-@import "~/.config/swayosd/swayosd.css";
+@import "./swayosd.css";
 
 window {
   border-radius: 0;
