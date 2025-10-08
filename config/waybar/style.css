@@ -1,15 +1,14 @@
-@define-color foreground #cdd6f4;
-@define-color background #1a1b26;
+@define-color foreground #faf7f7;
+@define-color background #18181a;
 
 * {
   background-color: @background;
   color: @foreground;
-
   border: none;
   border-radius: 0;
   min-height: 0;
   font-family: 'JetBrainsMono Nerd Font';
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .modules-left {
@@ -31,7 +30,10 @@
   opacity: 0.5;
 }
 
-#tray,
+/* Waybar system tray icons */
+#tray {
+}
+
 #cpu,
 #battery,
 #network,
@@ -50,12 +52,8 @@ tooltip {
   padding: 2px;
 }
 
-#custom-update {
-  font-size: 10px;
-}
-
 #clock {
-  margin-left: 8.75px;
+  margin-left: 0px;
 }
 
 .hidden {
